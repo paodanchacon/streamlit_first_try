@@ -11,7 +11,7 @@ def load_lottie_url(url:str):
     return r.json()
 
 # ------ ANIMATIONS ------
-lottie_coding = load_lottie_url("https://assets1.lottiefiles.com/packages/lf20_buopyjyz.json")
+lottie_coding = load_lottie_url("https://assets9.lottiefiles.com/packages/lf20_huwt6lxv.json")
 
 # ------ HEADER SECTION ------
 left_column, right_column = st.columns(2)
