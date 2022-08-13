@@ -26,7 +26,7 @@ with st.container():
 
 
 from PIL import Image
-image = Image.open("img\Mr_Pineapple.jpg")
+image = Image.open("img/Mr_Pineapple.jpg")
 st.image(image, caption="""Photo by [Miesha Maiden](https://www.pexels.com/@miphotography?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) from [Pexels](https://www.pexels.com/photo/pineapple-with-brown-sunglasses-459601/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)""")
 st.caption("Photo by [Miesha Maiden](https://www.pexels.com/@miphotography?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) from [Pexels](https://www.pexels.com/photo/pineapple-with-brown-sunglasses-459601/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)")
 #st.image(image, caption=(st.write("Photo by"), st.write("[Miesha Maiden](https://www.pexels.com/@miphotography?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)")))
