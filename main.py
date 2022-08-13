@@ -21,6 +21,7 @@ left_column, right_column = st.columns(2)
 with st.container():
     
     st.subheader("Hi, I am Daniela Chambilla :yellow_heart:")
+    st.markdown("***First Tutorial in STREAMLIT***")
     st.title("10 Cool Beginner Python Tricks That Will Make Your Life Easier")
     st.subheader("Simple but effective tips for every python lovers")
 
