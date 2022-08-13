@@ -1,6 +1,6 @@
 import requests
 import streamlit as st
-from streamlit_lottie import st_lottie
+from streamlit_lottie import st_lottie_spinner
 
 st.set_page_config(page_title="Python Tricks", page_icon=":snake:", layout="wide")
 
@@ -16,7 +16,7 @@ lottie_coding = load_lottieurl("https://assets4.lottiefiles.com/packages/lf20_2z
 # ------ HEADER SECTION ------
 left_column, right_column = st.columns(2)
 with right_column:
-    st_lottie(lottie_coding, height=120, key="coding")
+    st_lottie_spinner(lottie_coding, height=120, key="coding")
 
 with st.container():
     
