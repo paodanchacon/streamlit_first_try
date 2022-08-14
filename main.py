@@ -262,3 +262,6 @@ with st.container():
     st.write("Also, feel free to subscribe to my free newsletter: [Pranjal’s Newsletter](https://pranjalai.medium.com/subscribe).")
 
     st.caption("Thanks to Elliot Gunn")
+
+
+# ------ NOTES ------
